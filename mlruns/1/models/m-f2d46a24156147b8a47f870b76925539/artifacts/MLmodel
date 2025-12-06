@@ -1,0 +1,21 @@
+artifact_path: file:C:/Users/jaire/Downloads/02UNAL/PRODUCTO DE DATOS/taller 4/PRE-07-mlflow-tracking-basico-jarinconva/mlruns/1/models/m-f2d46a24156147b8a47f870b76925539/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-f2d46a24156147b8a47f870b76925539
+model_size_bytes: 139099
+model_uuid: m-f2d46a24156147b8a47f870b76925539
+prompts: null
+utc_time_created: '2025-12-06 14:53:22.667772'
